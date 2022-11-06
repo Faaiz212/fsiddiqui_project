@@ -1,0 +1,100 @@
+
+*{
+    
+    font-size: 110%;
+    mix-blend-mode:darken;
+}
+body{
+    background-image: url(colorful-2174045.png);
+    background-size: auto;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 255);
+    mix-blend-mode: multiply;
+    
+}
+
+h1,h3{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+figure{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+h1{
+    text-align-last: center;
+    font-size: 120%;
+}
+#info1{
+    margin-bottom: 0%;
+    
+}
+.main-data{
+    margin: 3em;
+}
+.main-nav li{
+    display: inline-block;
+    align-self: center;
+    text-decoration: none;
+    margin:0em;
+    margin-left: 2em;
+    margin-right: 1em;
+    padding: .25em;
+    
+}
+.main-nav li:hover{
+    background-color: rgba(9, 9, 9, 0.127);
+    cursor:pointer;
+    background-blend-mode: multiply;
+    
+   
+
+}
+.main-head{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    text-emphasis: none;
+    font-size: 150%;
+    margin: 1em;
+    padding: .5em;
+    background-color:black;
+    color: lightgray;
+    border-top: 1em;
+    border-bottom: 1em;
+    border-left: 1em;
+    border-right: 1em;
+}
+.info{
+    background-color: rgba(9, 9, 9, 0.127);
+    padding: .5em;
+    margin:1em;
+    padding-left: 1em;
+    padding-bottom: .9em;
+    max-width: 25%;
+    margin-left: 3em;
+    border-width:.1em;
+    border-color:black;
+    border-style: solid;
+}
+.sub-head{
+    margin-left: 5em;
+    margin-top: 1em;
+    font-weight:unset;
+    font-size: 1.5em;
+}
+.home-nav{
+    margin: 3em;
+}
+.home-nav li{
+    margin: 2em;
+    
+    
+}
+.home-nav li:hover{
+    background-color: rgba(9, 9, 9, 0.127);
+    cursor:pointer;
+    background-blend-mode: multiply;
+    padding: .1em;
+    padding-right: .1em;
+    margin-right: .1em;
+    border-right:.1em;
+    

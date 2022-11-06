@@ -1,0 +1,23 @@
+{
+  "name": "fsiddiqui_project",
+  "version": "1.0.0",
+  "description": "CIS545 course project 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faaiz212/fsiddiqui_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faaiz212/fsiddiqui_project/issues"
+  },
+  "homepage": "https://github.com/Faaiz212/fsiddiqui_project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
