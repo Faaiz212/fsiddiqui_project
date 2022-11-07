@@ -8,8 +8,13 @@
     <title>Home</title>
     <style>
         .sel{
-            background-color: rgba(9, 9, 9, 0.3);
+            background-color: rgba(126, 126, 126, 0.6);
             background-blend-mode:multiply;
+            border-radius: 25%;
+        }
+        .sub-head{
+            margin-left: 3em;
+            margin-bottom: 0em;
         }
 
     </style>
@@ -31,6 +36,7 @@
     </header>
     <h1 class="main-head">Home</h1>
     <h2 class="sub-head">Please click on links below to navigate:</h2>
+    <div class="home-info-nav">
     <nav class="home-nav">
     <ul style="list-style:disc;">
         <li onclick="window.location='/profile'">Profile</li>
@@ -38,10 +44,16 @@
         <li onclick="window.location='/achievements'">Achievements</li>
         <li onclick="window.location='/reflection'">Reflection</li>
         <li onclick="window.location='/contact'">Contact Information</li>
-
-
     </ul>
     </nav>
+    <div class="home-inf">
+    <div class="info">
+        <h3 id="info1">Faaiz Siddiqui</h3>
+        Graduate student at Bradley University,
+        Peoria, Il, 61625, USA.
+    </div>
+    </div>
+    </div>
     </body>
     </html>
     

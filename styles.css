@@ -14,7 +14,7 @@ body{
 }
 
 h1,h3{
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 figure{
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
@@ -31,15 +31,19 @@ h1{
 }
 .main-data{
     margin: 3em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
 }
 .main-nav li{
     display: inline-block;
     align-self: center;
     text-decoration: none;
     margin:0em;
-    margin-left: 2em;
-    margin-right: 1em;
+    margin-left: 1.25em;
+    margin-right: .5em;
     padding: .25em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
     
 }
 .main-nav li:hover{
@@ -80,21 +84,66 @@ h1{
     margin-top: 1em;
     font-weight:unset;
     font-size: 1.5em;
+    
 }
 .home-nav{
     margin: 3em;
+    display: block;
+    z-index:1;
+    width: 16em;
+    margin-top: 1em;
 }
 .home-nav li{
     margin: 2em;
-    
+    display: block;
+    z-index:1;
+    margin: 1em;
+    padding: 0.25em;   
+}
+
+@keyframes highlight {
+    from {
+      background-position: 0em;
+    }
+
+    to {
+      background-position:9.5em;
+    }
+}
+
+.home-nav li:hover{
+    cursor: pointer;
+    animation-name: highlight;
+    animation-duration: 0.75s;
+    animation-fill-mode:forwards;
+    background-size:100%;
+    background-image: linear-gradient(to left, rgba(9, 9, 9, 0.127), transparent 100%);
+}
+.home-info-nav{
+    display: flex;
+    overflow: hidden;
+}
+.home-info-nav > .home-inf > .info{
+    margin-top: 4em;
+    width: 40em;
+    height:5.5em;
+    margin-left: 15em;
     
 }
-.home-nav li:hover{
-    background-color: rgba(9, 9, 9, 0.127);
-    cursor:pointer;
-    background-blend-mode: multiply;
-    padding: .1em;
-    padding-right: .1em;
-    margin-right: .1em;
-    border-right:.1em;
-    
+.home-nav > ul{
+    width: 12.7em;
+}
+.desc-list>dd,.desc-list>dt{
+    margin: .5em;
+}
+.desc-list>dt{
+    font-weight: bold;
+    margin-bottom: 0em;
+}
+.desc-list>dd{
+    font-size: .8em;
+    margin-left: 2em;
+}
+.q-head{
+    font-size: 1.5em;
+}
